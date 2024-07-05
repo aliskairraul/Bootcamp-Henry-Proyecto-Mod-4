@@ -1,0 +1,16 @@
+# Para Jalar la Imagen de Docker-Hub
+    docker build --no-cache -t mysql_8035 .
+
+# Para Instanciar un Contenedor a partir de la Imagen
+    docker run -p 3306:3306 -v ${PWD}/DATADB:/var/lib/mysql 
+               -e MYSQL_ROOT_PASSWORD='root' 
+               -d mysql_8035
+
+
+
+
+
+
+
+
+

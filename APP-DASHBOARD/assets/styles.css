@@ -1,0 +1,276 @@
+body {
+  background-color: rgb(32, 33, 44);
+} 
+
+/* 1*/
+#general-container {
+  width: 98vw;      /* vw*/ 
+  height: 97vh;      /* vh */ 
+
+}
+
+/* 1-1 */
+#title-container{
+  width: 100%;
+  height: 9%;     /*12 */
+}
+
+#header-container{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+#date-title{
+  color: rgb(227, 227, 233);
+}
+
+.text-title{
+  color: rgb(227, 227, 233);
+  font-size: 2.2vw;
+}
+
+#work_1_container{
+  width: 100%;
+  height: 65%;
+  display: flex;
+}
+
+
+#work_2_container{
+  width: 100%;
+  height: 27%;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Contiene al Contenedor del Drop Container*/
+#work_1_1_container{
+  width: 23%;
+  height: 100%;
+  margin-top: 6px;
+  justify-content: left;
+}
+
+#work_1_2_container{
+  width: 77%;
+  height: 100%; 
+}
+
+
+
+/*  Contiene al Contenedor de los indicadores*/
+#work_1_2_1_container{
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+
+
+#work_1_2_2_container{
+  width: 100%;
+  height: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Contiene al contenedor del grafico de Barras*/
+#work_1_2_2_1_container{
+  width: 70%;
+  height: 100%;
+  align-content: center;
+  margin-right: 7px;
+  }
+
+ /* Contiene a los Contenedores que a su vez contienen los de Irregularidades y Etario*/  
+#work_1_2_2_2_container{
+  width: 31%;
+  height: 100%;
+  align-items: end;
+  margin-left: 5px;
+}
+
+/* Contiene el contenedor de las irregularidades*/ 
+#work_1_2_2_2_1_container{
+  width: 100%;
+  height: 30%;
+  padding-top: 4px;
+  align-content: end;
+}
+
+/* Contiene el contenedor del Rango Etario*/
+#work_1_2_2_2_2_container{
+  width: 100%;
+  height: 70%;
+  align-content: center;
+  
+}
+
+/* Contiene el Contenedor de los Despachos*/
+#work_2_1_container{
+  width: 77%;
+  height: 100%;
+  justify-content: right;  
+}
+
+/* Contiene el Contenedor de los Canales*/
+#work_2_2_container{
+  width: 23%;
+  height: 100%;
+}
+
+
+#drop_container{
+  width: 94%;
+  height: 94%;
+  background-color: rgb(39, 42, 49);
+  border: 3px solid rgb(18, 18, 26);
+  border-radius: 10px;
+}
+
+
+.indicators{
+  width: 18%;
+  height: 90%;
+  justify-content: center;
+  text-align: center;
+  background-color: rgb(39, 42, 49);
+  border: 3px solid rgb(18, 18, 26);
+  border-radius: 10px;
+}
+
+#bar_container{
+  width: 99%;
+  height: 90%;
+  background-color: rgb(39, 42, 49);
+  border: 3px solid rgb(18, 18, 26);
+  border-radius: 10px;
+}
+
+#despachos_container{
+  width: 98%;
+  height: 98%;
+  background-color: rgb(39, 42, 49);
+  border: 3px solid rgb(18, 18, 26);
+  border-radius: 10px;
+}
+
+#canales_container{
+  width: 98%;
+  height: 98%;
+  background-color: rgb(39, 42, 49);
+  border: 3px solid rgb(18, 18, 26);
+  border-radius: 10px;
+}
+
+#irregularidad_container{
+  width: 98%;
+  height: 85%;
+  background-color: rgb(39, 42, 49);
+  border: 3px solid rgb(18, 18, 26);
+  border-radius: 10px;
+}
+
+#etario_container{
+  width: 98%;
+  height: 85%;
+  background-color: rgb(39, 42, 49);
+  border: 3px solid rgb(18, 18, 26);
+  border-radius: 10px;
+  /* justify-content: right; */
+}
+
+/*  *****************************************    HASTA ACA ES PURA PLANTILLA                */
+
+/* *****************************************  COMIENZA ESTILOS DE COMPONENTES               */
+#label-drop{
+  /* margin-top: 5px;    5px */
+  margin-left: 5%;
+  color:rgb(227, 227, 233);
+  font-size: 2vw     /* 25 px*/
+}
+
+#drop-down{
+  background-color: rgb(91, 180, 170);
+  width: 90%;
+  margin-left: 5%;
+}
+
+.small-title{
+  margin-top: 5%;             
+  color:rgb(227, 227, 233); 
+  font-size: 1.5vw;           
+ }
+
+.small-numbers-out{
+  color:rgb(227, 227, 233);
+  font-size: 1.8vw;                           
+  font-weight: bold;
+}
+
+#margin-number{
+  font-size: 2.1vw;                       
+}
+
+#dias-number{
+  font-size: 2.2vw;                        
+}
+
+.first-big-titles{
+  color: rgb(199, 253, 254);
+  font-weight: bold;
+  font-size: 1.35vw;                            
+}
+
+.first-big-names{
+  color: rgb(227, 227, 233);
+  font-size: 1.3vw;                            
+}
+
+.first-big-numbers{
+  color: rgb(227, 227, 233);
+  font-size: 1.3vw;                             
+}
+
+.first-big-percentages{
+  color: rgb(227, 227, 233);
+  font-weight: bold;
+  font-size: 1.4vw;                            
+}
+
+
+.empleado-sucursal-dia{
+  color: rgb(227, 227, 233);
+  text-align: center;
+}
+
+#first-big-content{
+  height: 100%;
+  margin-top: 5%;
+}
+
+.irregularidad{
+  color: rgb(227, 227, 233);
+  text-align: center;
+  font-size: 1.3vw;                                  
+  font-weight: bold;
+}
+
+#irregularidad_container{
+  text-align: center;
+  justify-items: center;
+}
+
+#bar-title{
+  margin-left: 38%;
+  color: rgb(227, 227, 233);
+  text-align: center;
+  font-size: 1.5vw;
+}
+
+
+
+

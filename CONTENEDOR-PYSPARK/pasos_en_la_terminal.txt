@@ -1,0 +1,16 @@
+# Para Jalar la Imagen de Docker-Hub
+    docker build --no-cache -t pyspark .
+
+# Para Instanciar un Contenedor a partir de la Imagen
+    docker run -it --name mod4_pyspark  -p 8888:8888 -v ${PWD}:/usr/src/app pyspark
+
+################  Ojo Instalar dentro del Contenedor en el Ambiente (Base) de Conda ##################
+conda install pyspark
+conda install psmysql
+
+Nota: Estas instalaciones permitiran entrar con Vscode y trabajar Pyspark dentro del Contenedor
+      Y pymysql es necesario para poder que SqlAlchemy Tenga conexion con Mysql que a su vez esta en el 
+             otro contenedor
+#########################################################################
+
+
