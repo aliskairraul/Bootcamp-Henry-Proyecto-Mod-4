@@ -43,6 +43,7 @@ sucursales["venta"] = 0
 
 app = Dash(suppress_callback_exceptions=True)
 
+server = app.server
 
 app.layout = html.Div(
     [
@@ -461,4 +462,4 @@ def handle_return_irregularidad_component(value: str) -> html.Div:
 
 
 if __name__ == "__main__":
-    app.run_server(debug=True)
+    app.run_server(debug=False)
