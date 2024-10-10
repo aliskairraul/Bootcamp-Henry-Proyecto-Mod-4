@@ -122,7 +122,9 @@ Luego dentro del contenedor `mod4_pyspark` ubicados en la dirección `/usr/src/a
     - Al hacer `hover` (pasar el puntero del mouse sobre una burbuja), se desplega la información de Sucursal, Codigo y Nombre de Cliente, Fecha del pedido, Dias que tardó en entregarse y monto del despacho. Lo cual sirve para monitorear.<br>
       <img src='images/despachos.png'>
       <br>
-  - http://aliskairraul.pythonanywhere.com
+
+Despliegue: http://aliskairraul.pythonanywhere.com <br>
+Video: https://drive.google.com/file/d/1qIIZmBFXw4bhqM6T1RC0Kt-L4h2rMrFT/view?usp=sharing
 
 ### Autor:
 
